@@ -10,7 +10,7 @@ print(f"{data_b64=}")
 
 
 
-
+#VERSÃO 2
 # import base64
 
 # HEX_STRING = '49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d'
@@ -21,6 +21,7 @@ print(f"{data_b64=}")
 # print(BASE64_VAL)
 
 
+#VERSÃO BYTES
 # string="49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d"
 # text=bytes.fromhex(string)
 # print(text) #imprimindo a frase com bytes
