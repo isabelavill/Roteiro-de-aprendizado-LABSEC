@@ -1,8 +1,4 @@
-# a= bytes.fromhex("1c0111001f010100061a024b53535009181c")
-# b= bytes.fromhex("686974207468652062756c6c277320657965")
-
-# print(a)
-# print(b) #frase
+#Fixed XOR
 
 
 def _bytes_xor(a: bytes,b: bytes, quiet=True, check_lens=False) -> bytes: 
@@ -27,7 +23,9 @@ if __name__=="__main__":
     print(f"{result=}")
     print(f"{result.hex()=}")
 
-    # if result == bytes.fromhex("746865206b696420646f6e277420706c6179"):
-    #     print("Worked!")
-    # else:
-    #     exit("xor didn't work!")
+# a= bytes.fromhex("1c0111001f010100061a024b53535009181c")
+# b= bytes.fromhex("686974207468652062756c6c277320657965")
+
+# print(a)
+# print(b) #frase
+
